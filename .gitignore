@@ -1,0 +1,71 @@
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+backend/.venv/
+.venv/
+env/
+venv/
+
+# UV
+backend/.uv/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.turbo/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Docker
+*.log
+*.yml
+docker-data/
+postgres-data/
+redis-data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Test cache
+.pytest_cache/
+.mypy_cache/
+
+# Misc
+*.sqlite3
+*.db
