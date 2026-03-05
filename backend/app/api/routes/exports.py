@@ -1,0 +1,1 @@
+# cada dominio tem um router
