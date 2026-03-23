@@ -8,4 +8,4 @@ class User(BaseModel):
     __tablename__ = "users"
 
     email: Mapped[str] = mapped_column(String(255), unique=True, nullable=False)
-    # password? how make safe?
+    password_hash: Mapped[str] = mapped_column(String(255), nullable=False)
