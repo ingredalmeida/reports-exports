@@ -1,0 +1,18 @@
+Modelos Pydantic usados na API.
+
+Eles definem:
+
+- formato de entrada
+- formato de saída
+
+Exemplo:
+
+ExportJobCreate
+ExportJobResponse
+
+Importante:
+schemas ≠ models
+
+Tipo	Função
+models	estrutura do banco
+schemas	estrutura da API

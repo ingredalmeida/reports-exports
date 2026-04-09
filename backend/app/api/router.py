@@ -1,0 +1,1 @@
+# unico ponto para todos os endpoints

@@ -1,0 +1,2 @@
+class PasswordHashError(Exception):
+    pass

@@ -42,7 +42,6 @@ frontend/.env
 
 # Docker
 *.log
-*.yml
 docker-data/
 postgres-data/
 redis-data/
